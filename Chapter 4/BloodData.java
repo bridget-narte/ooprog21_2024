@@ -7,11 +7,11 @@ public class BloodData {
         rhFactor = "-";
     }
 
-    public static void setBloodtype(String newBloodType) {
+    public static void setBlood(String newBloodType) {
         bloodType = newBloodType;
     }
 
-    public static void setRHFACTOR(String newRh) {
+    public static void setRH(String newRh) {
         rhFactor = newRh;
     }
 
@@ -19,14 +19,14 @@ public class BloodData {
         return bloodType;
     }
 
-    public static String getRHFACTOR() {
+    public static String getRH() {
         return rhFactor;
     }
 
     public static void displayBloodInfo() {
         
         System.out.println("Your blood type is : " + getBlood());
-        System.out.println("Your Rh Factor is: " + getRHFACTOR());
+        System.out.println("Your Rh Factor is: " + getRH());
 
     }
 }
