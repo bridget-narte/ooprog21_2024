@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class TestBloodData {
     public static void main(String[] args) {
+        
         BloodData.defaultPatient();
         System.out.println("Default Blood Type:");
 
@@ -12,7 +13,6 @@ public class TestBloodData {
         String bloodType = scan.nextLine();
         System.out.println("Enter RH Factor: ");
         String rhFactor = scan.nextLine();
-
 
         BloodData.setBloodtype(bloodType);
         BloodData.setRHFACTOR(rhFactor);
