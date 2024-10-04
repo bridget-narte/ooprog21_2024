@@ -14,8 +14,8 @@ public class TestBloodData {
         System.out.println("Enter RH Factor: ");
         String rhFactor = scan.nextLine();
 
-        BloodData.setBloodtype(bloodType);
-        BloodData.setRHFACTOR(rhFactor);
+        BloodData.setBlood(bloodType);
+        BloodData.setRH(rhFactor);
         BloodData.displayBloodInfo();
     }
 }
