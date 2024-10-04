@@ -1,7 +1,7 @@
 public class BloodData {
 
     static String bloodType, rhFactor;
-
+    
     public static void defaultPatient() {
         bloodType = "A";
         rhFactor = "-";
@@ -24,6 +24,7 @@ public class BloodData {
     }
 
     public static void displayBloodInfo() {
+        
         System.out.println("Your blood type is : " + getBlood());
         System.out.println("Your Rh Factor is: " + getRHFACTOR());
 
